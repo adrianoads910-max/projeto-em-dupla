@@ -9,7 +9,10 @@
 </head>
 
 <body>
-    <img src="imagens/logo.png" alt="logo" width="250px" height="250px">
+     <picture class="cabecalho">
+        <img src="imagens/logo.png" alt="Logo da Cafeteria" class="logo" width="400px" height="350px">
+     </picture>  
+    <h1>Cafeteria Por do Sol</h1>
     <nav class="navigation">
         <ul>
             <li>
@@ -32,63 +35,84 @@
             </li>
         </ul>
     </nav>
-
     <main>
-        <h1>Cafeteria Por do Sol</h1>
+        <div id="sobre-nos" class="about">
+            <section>
+                <article>
+                    <h2>SOBRE NÓS</h2>
+                    <p>Maria da Silva é a fundadora da nossa cafeteria. Com uma paixão por café desde a infância, ela
+                        decidiu
+                        abrir
+                        este espaço para compartilhar seu amor por essa bebida incrível com todos. Maria acredita que
+                        cada
+                        xícara de
+                        café conta uma história e está sempre em busca dos melhores grãos para oferecer aos seus
+                        clientes
+                        uma
+                        experiência única.</p>
 
-        <div id="sobre-nos" class="impar">
-            <article>
-                <h2>SOBRE NÓS</h2>
-                <p>Maria da Silva é a fundadora da nossa cafeteria. Com uma paixão por café desde a infância, ela
-                    decidiu
-                    abrir
-                    este espaço para compartilhar seu amor por essa bebida incrível com todos. Maria acredita que cada
-                    xícara de
-                    café conta uma história e está sempre em busca dos melhores grãos para oferecer aos seus clientes
-                    uma
-                    experiência única.</p>
-            </article>
+                    <button class="primary-button">Saiba mais</button>
+                </article>
 
-            <img src="imagens/fundadora.png" alt="conheça-nossa-historia" width="250px" height="
-        250px">
-        <br>
-        <a href="" class="btn">PARA SABER MAIS..</a>
+                <figure>
+                    <img src="imagens/fundadora.png" alt="conheça-nossa-historia" />
+                </figure>
+            </section>
+
         </div>
 
-        <div id="explore-nossos-cafes" class="par">
-            <h2>EXPLORE NOSSOS CAFÉS</h2>
-            <p>Oferecemos uma ampla variedade de cafés, desde os clássicos expresso e cappuccino até opções mais
-                elaboradas
-                como mocha e latte art. Cada bebida é preparada com atenção aos detalhes, garantindo que cada gole seja
-                uma
-                explosão de sabor.</p>
-            <img src="imagens/nossos-graos.png" alt="conheça-nossos-cafes" width="250px" height="
-        250px">
-        <br>
-         <a href="" class="btn">PARA SABER MAIS..</a>
-        </div>
+        <div id="explore-nossos-cafes" class="about">
+            <section>
+                <figure>
+                    <img src="imagens/nossos-graos.png" alt="conheça-nossos-cafes" width="250px" height="
+                250px">
+                </figure>
+                <article>
+                    <h2>EXPLORE NOSSOS CAFÉS</h2>
+                    <p>Oferecemos uma ampla variedade de cafés, desde os clássicos expresso e cappuccino até opções mais
+                        elaboradas
+                        como mocha e latte art. Cada bebida é preparada com atenção aos detalhes, garantindo que cada gole seja
+                        uma
+                        explosão de sabor.</p>
+                    <button class="primary-button">Saiba mais</button>
+                </article>
 
-        <div id="conheca-nossos-sanduiches" class="impar">
-            <h2>CONHEÇA NOSSOS SANDUICHES</h2>
-            <p>Nossos sanduíches são feitos com ingredientes frescos e selecionados, combinando sabores tradicionais e
-                contemporâneos. Desde o clássico sanduíche de presunto e queijo até opções gourmet com ingredientes
-                especiais, temos algo para todos os gostos.</p>
-            <img src="imagens/sanduiches.png" alt="conheca-nossos-sanduiches" width="250px" height="
-        250px">
-        <br>
-         <a href="" class="btn">PARA SABER MAIS..</a>
+            </section>    
+            
         </div>
-
-        <div id="delicias-para-acompanhar" class="par">
-            <h2>DELÍCIAS PARA ACOMPANHAR</h2>
-            <p>Nossas sobremesas são o complemento perfeito para o seu café. Oferecemos uma variedade de doces, desde
-                bolos
-                caseiros e tortas até opções mais sofisticadas como tiramisu e cheesecake. Cada sobremesa é feita com
-                carinho para proporcionar uma experiência doce e memorável.</p>
-            <img src="imagens/sobremesa.png" alt="conheca-nossos-sobremesas" width="250px" height="
-        250px">
-        <br>
-         <a href="" class="btn">PARA SABER MAIS..</a>
+        
+        <div id="conheca-nossos-sanduiches" class="about">
+            <section> 
+                <article>
+                    <h2>CONHEÇA NOSSOS SANDUICHES</h2>
+                    <p>Nossos sanduíches são feitos com ingredientes frescos e selecionados, combinando sabores tradicionais e
+                        contemporâneos. Desde o clássico sanduíche de presunto e queijo até opções gourmet com ingredientes
+                        especiais, temos algo para todos os gostos.</p>
+                        
+                        <button class="primary-button">Saiba mais</button>
+                    </article>    
+                    <figure>
+                        <img src="imagens/sanduiches.png" alt="conheca-nossos-sanduiches" width="250px" height="
+                        250px">
+                    </figure>
+                    
+                </section>
+            </div>
+            
+        <div id="delicias-para-acompanhar" class="about">
+            <section> 
+                <figure>
+                    <img src="imagens/sobremesa.png" alt="conheca-nossos-sobremesas" width="250px" height="
+                    250px">
+                </figure>
+                <article>        
+                    <h2>DELÍCIAS PARA ACOMPANHAR</h2>
+                    <p>Nossas sobremesas são o complemento perfeito para o seu café. Oferecemos uma variedade de doces, desde
+                        bolos
+                        caseiros e tortas até opções mais sofisticadas como tiramisu e cheesecake. Cada sobremesa é feita com
+                        carinho para proporcionar uma experiência doce e memorável.</p>
+                </article>
+            </section>  
         </div>
     </main>
 
@@ -99,6 +123,10 @@
             <p>Telefone: (11) 1234-5678</p>
             <p>Email: exemplo@exemplo.com</p>
         </article>
+        <article>
+                <p>&copy; 2025 Cafeteria. Todos os direitos reservados.</p>
+                <p>Desenvolvido por Adriano Souza e Tiago Passar</p>          
+        </article>        
     </footer>
 
 </body>
